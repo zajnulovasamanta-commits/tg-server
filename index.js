@@ -22,7 +22,7 @@ app.post('/send', async (req, res) => {
     + (event_type ? '🎉 Тип: ' + event_type + '\n' : '')
     + (message ? '💬 Пожелания: ' + message + '\n' : '');
 
-  const token = '8754314869:AAFt4BSTcL9R0LTXaEQolyg8gVqA_Kaa5wY';
+  const token = '8754314869:AAE5UpxJ9eCBDvV-7UBVDzzPs65YSx0yAUA';
   const ids = ['1434511966', '847489470', '488168564', '5097414297'];
 
   for (const chat_id of ids) {
